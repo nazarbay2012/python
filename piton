@@ -1,0 +1,9 @@
+menu = ['icecream','tea','pepsi','cola'] #list
+print(menu)
+a = input("what food do you want? ")
+foodorder = [a]
+for food in foodorder:
+    if food in menu:
+        print(f"menuda {food} bor")
+    else:
+        print(f"sorry we dont have {food} ")
